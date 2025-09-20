@@ -91,3 +91,6 @@ model <- QueueingModel(input)
 summary(model)
 
 ```
+
+<img width="626" height="1123" alt="image" src="https://github.com/user-attachments/assets/cdfc7882-770e-43dc-86de-6073f93c2b74" />
+
