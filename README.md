@@ -13,6 +13,7 @@ pi_hat
 ```
 
 <img width="820" height="625" alt="image" src="https://github.com/user-attachments/assets/2d6b823b-05d5-4d46-a5ca-f5c9818ceb1a" />
+
 ```
 # Přechodová matice (2 stavy: zákazník kupuje A nebo B)
 P <- matrix(c(0.7, 0.3,
@@ -30,6 +31,7 @@ for (t in 1:10) {
 ```
 
 <img width="820" height="881" alt="image" src="https://github.com/user-attachments/assets/6f7f9ea0-6218-418d-8dfc-fb8e29b2eba3" />
+
 ```
 library(markovchain)
 
@@ -64,10 +66,7 @@ H <- 2      # náklady na skladování
 
 Q_opt <- sqrt((2*D*S)/H)
 Q_opt
-
-```
-
-```
+---------
 set.seed(123)
 T <- 30   # počet dní
 demand <- rpois(T, lambda=20)  # náhodná denní poptávka
